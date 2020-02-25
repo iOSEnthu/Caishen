@@ -1,0 +1,11 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'Caishen_Example' do
+  pod 'Caishen', :path => '../'
+  pod 'CardIO'
+end
+
+target 'Caishen_Tests' do
+  pod 'Caishen', :path => '../'
+end
